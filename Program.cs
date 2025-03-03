@@ -21,7 +21,7 @@ namespace Calculator
 
             int num2;
 
-            int result = 0; //Declares and initializes an integer variable to store the calculation result.
+            int result = 0; 
 
             string answer;
 
@@ -53,7 +53,7 @@ namespace Calculator
 
             {
 
-                Console.WriteLine("Invalid input"); //Checks if the answer is not null. If valid, echoes the user's choice; otherwise, displays an error message. Note that Console.ReadLine() will return an empty string rather than null if the user just presses Enter, so this check isn't very effective.
+                Console.WriteLine("Invalid input"); 
 
             }
 
@@ -103,7 +103,7 @@ namespace Calculator
 
                     Console.Read();
 
-                    return; //If the user chose "d", checks if the second number is not zero (to avoid division by zero). If safe, performs the division; otherwise, displays an error message and exits the method.
+                    return; 
 
                 }
 
